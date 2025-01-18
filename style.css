@@ -1,8 +1,103 @@
-body{
-    background-color: #000000;
+/* Estilo general */
+body {
+    background-color: #1A1A1A; /* Color oscuro para mayor contraste */
     color: #F6F6F6;
+    font-family: 'Roboto', Arial, sans-serif; /* Fuente profesional y moderna */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-strong{
+/* Enlaces */
+a {
     color: #22D4FD;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #11AACC;
+}
+
+/* Encabezado principal */
+h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+strong {
+    color: #22D4FD;
+    font-weight: bold;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.2em;
+    margin: 0.5em 1.5em;
+    text-align: justify;
+}
+
+/* Botones de enlaces */
+a {
+    display: inline-block;
+    margin: 1em;
+    padding: 0.5em 1.5em;
+    border: 2px solid #22D4FD;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #22D4FD;
+    color: #1A1A1A;
+}
+
+/* Imagen */
+img {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Header y Footer */
+header, footer {
+    background-color: #111111;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer {
+    color: #AAAAAA;
+    font-size: 0.9em;
+}
+
+/* Main container */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 2em;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    a {
+        font-size: 0.9em;
+        padding: 0.4em 1em;
+    }
 }
